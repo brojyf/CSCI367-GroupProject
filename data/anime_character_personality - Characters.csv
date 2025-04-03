@@ -1,0 +1,452 @@
+CharacterID,CharacterName,MBTI,AnimeID
+0,Tenya Iida “Ingenium”,ESTJ,1
+1,Jean Kirstein,ESTJ,2
+2,Nobara Kugisaki,ESTJ,8
+3,Maki Zenin,ESTJ,8
+4,Nami,ESTJ,13
+5,Mary Saotome,ESTJ,17
+6,Vegeta,ESTJ,20
+7,Cornelia li Britannia,ESTJ,21
+8,Jeremiah Gottwald,ESTJ,21
+9,Nishiki Nishio,ESTJ,22
+10,Nosferatu Zodd,ESTJ,23
+11,King Bradley,ESTJ,25
+12,Charizard (Lizardon),ESTJ,30
+13,Eva Heinemann,ESTJ,31
+14,Naoka Ueno,ESTJ,32
+15,Erza Scarlet,ESTJ,47
+16,Tsunade Senju,ESTP,0
+17,Hidan,ESTP,0
+18,Morel Mackernasey,ESTP,3
+19,Inosuke Hashibira,ESTP,5
+20,Chuuya Nakahara,ESTP,6
+21,Rindou Haitani,ESTP,7
+22,"Ken ""Draken"" Ryuguji",ESTP,7
+23,Keisuke Baji,ESTP,7
+24,Joseph Joestar,ESTP,9
+25,Jolyne Cujoh,ESTP,9
+26,Portgas D. Ace,ESTP,13
+27,Kojiro Nanjo,ESTP,14
+28,Irina Jelavić,ESTP,15
+29,Yumeko Jabami,ESTP,17
+30,Arisa Uotani,ESTP,18
+31,Kyōko Sakura,ESTP,19
+32,Juuzou Suzuya,ESTP,22
+33,Isidro,ESTP,23
+34,Denji,ESTP,27
+35,Grimmjow Jaegerjaquez,ESTP,29
+36,Kenpachi Zaraki,ESTP,29
+37,Yoruichi Shihoin,ESTP,29
+38,Squirtle,ESTP,30
+39,Lucario,ESTP,30
+40,Felt,ESTP,38
+41,Bill,ESTP,39
+42,Rika Kawai,ESTP,41
+43,Hikaru Hitachiin,ESTP,44
+44,Zero Two,ESTP,45
+45,Zorome,ESTP,45
+46,Dimple,ESTP,46
+47,Sakura Haruno,ESFJ,0
+48,Rock Lee,ESFJ,0
+49,Ochako Uraraka “Uravity”,ESFJ,1
+50,Historia Reiss (Christa Lenz),ESFJ,2
+51,Reiner Braun,ESFJ,2
+52,Leorio Paradinight,ESFJ,3
+53,Hinata Tachibana,ESFJ,7
+54,Hiromi Higa,ESFJ,14
+55,Shokichi Oka,ESFJ,14
+56,Saiki Kurumi,ESFJ,16
+57,Tohru Honda,ESFJ,18
+58,Shirley Fenette,ESFJ,21
+59,Winry Rockbell,ESFJ,25
+60,Alex Louis Armstrong,ESFJ,25
+61,Orihime Inoue,ESFJ,29
+62,Shouko Nishimiya,ESFJ,32
+63,Miki Kawai,ESFJ,32
+64,Tomohiro Nagatsuka,ESFJ,32
+65,Ren Yamai,ESFJ,34
+66,Makoto Kino (Sailor Jupiter),ESFJ,37
+67,Kikyou Kushida,ESFJ,40
+68,Max Lobo,ESFJ,42
+69,China,ESFJ,48
+70,Deidara,ESFP,0
+71,Ino Yamanaka,ESFP,0
+72,Might Guy,ESFP,0
+73,Eijirou Kirishima “Red Riot”,ESFP,1
+74,Katsuki Bakugo (Prototype Design),ESFP,1
+75,Sasha Braus,ESFP,2
+76,Connie Springer,ESFP,2
+77,Gon Freecss,ESFP,3
+78,Misa Amane,ESFP,4
+79,Okuyasu Nijimura,ESFP,9
+80,Hinata Shoyo,ESFP,10
+81,Yu Nishinoya,ESFP,10
+82,Don,ESFP,11
+83,Conny,ESFP,11
+84,Toji Suzuhara,ESFP,12
+85,Monkey D. Luffy,ESFP,13
+86,Ainosuke Shindo,ESFP,14
+87,Koyomi Kyan,ESFP,14
+88,Tomohito Sugino,ESFP,15
+89,Nendou Riki,ESFP,16
+90,Toritsuka Reita,ESFP,16
+91,Aiura Mikoto,ESFP,16
+92,Midari Ikishima,ESFP,17
+93,Kagura Sohma,ESFP,18
+94,Ayame Sohma,ESFP,18
+95,Sayaka Miki,ESFP,19
+96,Nagisa Momoe,ESFP,19
+97,Goku,ESFP,20
+98,Majin Buu,ESFP,20
+99,Shuu Tsukiyama,ESFP,22
+100,Kou,ESFP,24
+101,Tsukasa,ESFP,24
+102,Power,ESFP,27
+103,Beam,ESFP,27
+104,Renji Abarai,ESFP,29
+105,Charizard,ESFP,30
+106,Witch of the Waste,ESFP,33
+107,Markl,ESFP,33
+108,Taiju Oki,ESFP,36
+109,Minako Aino (Sailor Venus),ESFP,37
+110,Shorter Wong,ESFP,42
+111,Natsu Dragneel,ESFP,47
+112,America,ESFP,48
+113,France,ESFP,48
+114,Madara Uchiha,ENTJ,0
+115,Erwin Smith,ENTJ,2
+116,Biscuit Krueger “Bisky”,ENTJ,3
+117,Light Yagami,ENTJ,4
+118,Ryomen Sukuna,ENTJ,8
+119,Dio Brando,ENTJ,9
+120,Asuka Langley Soryu,ENTJ,12
+121,Miya Chinen,ENTJ,14
+122,Gakushū Asano,ENTJ,15
+123,Saiki Kusuke,ENTJ,16
+124,Kirari Momobami,ENTJ,17
+125,Kyubey,ENTJ,19
+126,Junko Kaname,ENTJ,19
+127,Frieza,ENTJ,20
+128,Schneizel el Britannia,ENTJ,21
+129,Griffith,ENTJ,23
+130,Roy Mustang,ENTJ,25
+131,Miyuki Shirogane,ENTJ,26
+132,Madame Suliman,ENTJ,33
+133,Tsukasa Shishio,ENTJ,36
+134,Rei Hino (Sailor Mars),ENTJ,37
+135,Roswaal L. Mathers,ENTJ,38
+136,Louis,ENTJ,39
+137,Dino Golzine,ENTJ,42
+138,Laxus Dreyar,ENTJ,47
+139,Guren Ichinose,ENTJ,49
+140,Orochimaru,ENTP,0
+141,Hange Zoë,ENTP,2
+142,Hisoka Morow,ENTP,3
+143,Neferpitou,ENTP,3
+144,Ryuk,ENTP,4
+145,Osamu Dazai,ENTP,6
+146,Satoru Gojo,ENTP,8
+147,Panda,ENTP,8
+148,Tetsurou Kuroo,ENTP,10
+149,Phil,ENTP,11
+150,Krone,ENTP,11
+151,Kaji Ryoji,ENTP,12
+152,Kensuke Aida,ENTP,12
+153,Usopp,ENTP,13
+154,Karma Akabane,ENTP,15
+155,Koro-sensei,ENTP,15
+156,Ritsu,ENTP,15
+157,Akechi Touma,ENTP,16
+158,Shigure Sohma,ENTP,18
+159,Trunks,ENTP,20
+160,Cell,ENTP,20
+161,Lloyd Asplund,ENTP,21
+162,Rize Kamishiro,ENTP,22
+163,Hanako,ENTP,24
+164,Edward Elric,ENTP,25
+165,Reze,ENTP,27
+166,Himeno,ENTP,27
+167,Fukube Satoshi,ENTP,28
+168,Gengar,ENTP,30
+169,Calcifer,ENTP,33
+170,Najimi Osana,ENTP,34
+171,Aru Akise,ENTP,35
+172,Gen Asagiri,ENTP,36
+173,Echidna,ENTP,38
+174,Sherlock Holmes,ENTP,43
+175,Reigen Arataka,ENTP,46
+176,Shinoa Hiiragi,ENTP,49
+177,Ferid Bathory,ENTP,49
+178,Minato Namikaze,ENFJ,0
+179,Shisui Uchiha,ENFJ,0
+180,"Toshinori Yagi ""All Might""",ENFJ,1
+181,Tanjiro Kamado,ENFJ,5
+182,Kyojuro Rengoku,ENFJ,5
+183,Tooru Oikawa,ENFJ,10
+184,Daichi Sawamura,ENFJ,10
+185,Emma,ENFJ,11
+186,Isabella,ENFJ,11
+187,Sanji,ENFJ,13
+188,Shanks,ENFJ,13
+189,Teruhashi Kokomi,ENFJ,16
+190,Itsuki Sumeragi,ENFJ,17
+191,Mami Tomoe,ENFJ,19
+192,Akane Aoi,ENFJ,24
+193,Ling Yao,ENFJ,25
+194,Maes Hughes,ENFJ,25
+195,Tsubame Koyasu,ENFJ,26
+196,Makima,ENFJ,27
+197,Pochita,ENFJ,27
+198,Nina Fortner,ENFJ,31
+199,Hitohito Tadano,ENFJ,34
+200,Puck,ENFJ,38
+201,Juno,ENFJ,39
+202,Honami Ichinose,ENFJ,40
+203,Tamaki Suoh,ENFJ,44
+204,Goro,ENFJ,45
+205,Teruki Hanazawa,ENFJ,46
+206,Lucy Heartfilia,ENFJ,47
+207,Mirajane Strauss,ENFJ,47
+208,Naruto Uzumaki,ENFP,0
+209,Obito Uchiha,ENFP,0
+210,Jiraiya,ENFP,0
+211,Mello,ENFP,4
+212,Josuke Higashikata,ENFP,9
+213,Misato Katsuragi,ENFP,12
+214,Reki Kyan,ENFP,14
+215,Kaede Kayano,ENFP,15
+216,Momiji Sohma,ENFP,18
+217,Euphemia li Britannia,ENFP,21
+218,Puck,ENFP,23
+219,Chika Fujiwara,ENFP,26
+220,Chitanda Eru,ENFP,28
+221,Pikachu,ENFP,30
+222,Jigglypuff,ENFP,30
+223,Howl Jenkins,ENFP,33
+224,Chrome,ENFP,36
+225,Suika,ENFP,36
+226,Usagi Tsukino (Sailor Moon),ENFP,37
+227,Subaru Natsuki,ENFP,38
+228,"Mitsukuni ""Honey"" Haninozuka",ENFP,44
+229,Renge Houshakuji,ENFP,44
+230,Miku,ENFP,45
+231,Happy,ENFP,47
+232,Italy,ENFP,48
+233,Spain,ENFP,48
+234,Neji Hyūga,ISTJ,0
+235,Tobirama Senju,ISTJ,0
+236,Fumikage Tokoyami “Tsukuyomi”,ISTJ,1
+237,Mikasa Ackerman,ISTJ,2
+238,Illumi Zoldyck,ISTJ,3
+239,Teru Mikami,ISTJ,4
+240,Soichiro Yagami,ISTJ,4
+241,Giyu Tomioka,ISTJ,5
+242,Obanai Iguro,ISTJ,5
+243,Doppo Kunikida,ISTJ,6
+244,Kyoka Izumi,ISTJ,6
+245,Yukichi Fukuzawa,ISTJ,6
+246,Naoto Tachibana,ISTJ,7
+247,Megumi Fushiguro,ISTJ,8
+248,Kento Nanami,ISTJ,8
+249,Yoshikage Kira,ISTJ,9
+250,Tobio Kageyama,ISTJ,10
+251,Rei Ayanami,ISTJ,12
+252,Ritsuko Akagi,ISTJ,12
+253,Langa Hasegawa,ISTJ,14
+254,Kaoru Sakurayashiki,ISTJ,14
+255,Tadashi Kikuchi,ISTJ,14
+256,Tadaomi Karasuma,ISTJ,15
+257,Sayaka Igarashi,ISTJ,17
+258,Yuriko Nishinotouin,ISTJ,17
+259,Hatori Sohma,ISTJ,18
+260,Koutarou Amon,ISTJ,22
+261,Casca,ISTJ,23
+262,Farnese de Vandimion,ISTJ,23
+263,Riza Hawkeye,ISTJ,25
+264,Scar,ISTJ,25
+265,Miko Iino,ISTJ,26
+266,Aki Hayakawa,ISTJ,27
+267,Toshiro Hitsugaya,ISTJ,29
+268,Byakuya Kuchiki,ISTJ,29
+269,Uryu Ishida,ISTJ,29
+270,Rukia Kuchiki,ISTJ,29
+271,Bulbasaur,ISTJ,30
+272,Setsuna Meioh (Sailor Pluto),ISTJ,37
+273,Ram,ISTJ,38
+274,Suzune Horikita,ISTJ,40
+275,Louis Moriarty,ISTJ,43
+276,Lestrade,ISTJ,43
+277,Haruhi Fujioka,ISTJ,44
+278,Germany,ISTJ,48
+279,Shiho Kimizuki,ISTJ,49
+280,Zabuza Momochi,ISTP,0
+281,Levi Ackerman,ISTP,2
+282,Ymir,ISTP,2
+283,Annie Leonhart,ISTP,2
+284,Akiko Yosano,ISTP,6
+285,Toji Fushiguro,ISTP,8
+286,Jotaro Kujo,ISTP,9
+287,Hajime Iwaizumi,ISTP,10
+288,Yuugo,ISTP,11
+289,Roronoa Zoro,ISTP,13
+290,Kyo Sohma,ISTP,18
+291,Android 18,ISTP,20
+292,Touka Kirishima,ISTP,22
+293,Guts,ISTP,23
+294,Kishibe,ISTP,27
+295,Greninja,ISTP,30
+296,Shouya Ishida,ISTP,32
+297,Minene Uryuu,ISTP,35
+298,Kohaku,ISTP,36
+299,Haruka Tenoh (Sailor Uranus),ISTP,37
+300,Ash Lynx,ISTP,42
+301,Takashi “Mori” Morinozuka,ISTP,44
+302,Gray Fullbuster,ISTP,47
+303,Gajeel Redfox,ISTP,47
+304,Wendy Marvell,ISTP,47
+305,Hinata Hyuga,ISFJ,0
+306,Kimimaro Kaguya,ISFJ,0
+307,Momo Yaoyorozu “Creati”,ISFJ,1
+308,Nezuko Kamado,ISFJ,5
+309,Gilda,ISFJ,11
+310,Tony Tony Chopper,ISFJ,13
+311,Okuda Manami,ISFJ,15
+312,Ryota Suzui,ISFJ,17
+313,Madoka Kaname,ISFJ,19
+314,Krillin,ISFJ,20
+315,Suzaku Kururugi,ISFJ,21
+316,Sophie Hatter,ISFJ,33
+317,Yuzuriha Ogawa,ISFJ,36
+318,Ami Mizuno (Sailor Mercury),ISFJ,37
+319,Rem,ISFJ,38
+320,Eiji Okumura,ISFJ,42
+321,Ichigo,ISFJ,45
+322,Sasuke Uchiha,ISFP,0
+323,Chōji Akimichi,ISFP,0
+324,Eren Yeager,ISFP,2
+325,Zenitsu Agatsuma,ISFP,5
+326,Ryunosuke Akutagawa,ISFP,6
+327,Takemichi Hanagaki,ISFP,7
+328,Kazutora Hanemiya,ISFP,7
+329,Yuji Itadori,ISFP,8
+330,Asahi Azumane,ISFP,10
+331,Kallen Kozuki,ISFP,21
+332,Rolo Lamperouge,ISFP,21
+333,Uta,ISFP,22
+334,Nene,ISFP,24
+335,Ibara Mayaka,ISFP,28
+336,Ichigo Kurosaki,ISFP,29
+337,Eevee,ISFP,30
+338,Haru,ISFP,39
+339,Ai Ohto,ISFP,41
+340,Futoshi,ISFP,45
+341,Canada,ISFP,48
+342,Yuichiro Hyakuya,ISFP,49
+343,Shoto Todoroki,INTJ,1
+344,Kurapika,INTJ,3
+345,Meruem,INTJ,3
+346,Near,INTJ,4
+347,Shinobu Kocho,INTJ,5
+348,Fyodor Dostoevsky,INTJ,6
+349,Tetta Kisaki,INTJ,7
+350,Giorno Giovanna,INTJ,9
+351,Rohan Kishibe,INTJ,9
+352,Kei Tsukishima,INTJ,10
+353,Gendo Ikari,INTJ,12
+354,Trafalgar D. Law,INTJ,13
+355,Kaede Manyuda,INTJ,17
+356,Homura Akemi,INTJ,19
+357,Piccolo Jr. (The Nameless Namekian),INTJ,20
+358,Lelouch vi Britannia,INTJ,21
+359,Kishou Arima,INTJ,22
+360,Schierke,INTJ,23
+361,Kaguya Shinomiya,INTJ,26
+362,Oreki Houtarou,INTJ,28
+363,Mewtwo,INTJ,30
+364,Heinrich Lunge,INTJ,31
+365,Deus Ex Machina,INTJ,35
+366,Mamoru Chiba (Tuxedo Mask),INTJ,37
+367,Kiyotaka Ayanokoji,INTJ,40
+368,Neiru Aonuma,INTJ,41
+369,Yut-Lung Lee,INTJ,42
+370,William James Moriarty,INTJ,43
+371,Kyouya Ootori,INTJ,44
+372,Ritsu Kageyama,INTJ,46
+373,Tsubomi Takane,INTJ,46
+374,England,INTJ,48
+375,Kakashi Hatake,INTP,0
+376,Shikamaru Nara,INTP,0
+377,Tsuyu Asui “Froppy”,INTP,1
+378,Killua Zoldyck,INTP,3
+379,L Lawliet,INTP,4
+380,Ranpo Edogawa,INTP,6
+381,"Manjirou ""Mikey"" Sano",INTP,7
+382,Toge Inumaki,INTP,8
+383,Johnny Joestar,INTP,9
+384,Ray,INTP,11
+385,Nico Robin,INTP,13
+386,Saiki Kusuo,INTP,16
+387,Saiki Kuriko,INTP,16
+388,C.C.,INTP,21
+389,Serpico,INTP,23
+390,Yu Ishigami,INTP,26
+391,Asa Mitaka,INTP,27
+392,Angel Devil,INTP,27
+393,Yuzuru Nishimiya,INTP,32
+394,Senku Ishigami,INTP,36
+395,Beatrice,INTP,38
+396,Ikuno,INTP,45
+397,Itachi Uchiha,INFJ,0
+398,Izuku Midoriya,INFJ,1
+399,Armin Arlert,INFJ,2
+400,Chrollo Lucilfer,INFJ,3
+401,Watari,INFJ,4
+402,Takashi Mitsuya,INFJ,7
+403,Yuta Okkotsu,INFJ,8
+404,Koushi Sugawara,INFJ,10
+405,Norman,INFJ,11
+406,James Ratri,INFJ,11
+407,Kaworu Nagisa,INFJ,12
+408,Nagisa Shiota,INFJ,15
+409,Ririka Momobami,INFJ,17
+410,Yuki Sohma,INFJ,18
+411,Skull Knight,INFJ,23
+412,Minamoto Teru,INFJ,24
+413,Ai Hayasaka,INFJ,26
+414,Johan Liebert,INFJ,31
+415,Shouko Komi,INFJ,34
+416,Yuno Gasai,INFJ,35
+417,Hotaru Tomoe (Sailor Saturn),INFJ,37
+418,Michiru Kaioh (Sailor Neptune),INFJ,37
+419,Emilia,INFJ,38
+420,Riz,INFJ,39
+421,Momoe Sawaki,INFJ,41
+422,Albert Moriarty,INFJ,43
+423,Kaoru Hitachiin,INFJ,44
+424,Hiro,INFJ,45
+425,Japan,INFJ,48
+426,Mikaela Hyakuya,INFJ,49
+427,Sakumo Hatake,INFP,0
+428,Rem,INFP,4
+429,Mitsuri Kanroji,INFP,5
+430,Muichiro Tokito,INFP,5
+431,Atsushi Nakajima,INFP,6
+432,Chifuyu Matsuno,INFP,7
+433,Shinji Ikari,INFP,12
+434,Kaidou Shun,INFP,16
+435,Akito Sohma,INFP,18
+436,Gohan,INFP,20
+437,Nina Einstein,INFP,21
+438,Kaneki Ken,INFP,22
+439,Hinami Fueguchi,INFP,22
+440,Mitsuba,INFP,24
+441,Alphonse Elric,INFP,25
+442,Dr. Kenzo Tenma,INFP,31
+443,Kaede Otori,INFP,34
+444,Yukiteru Amano,INFP,35
+445,Legoshi,INFP,39
+446,Airi Sakura,INFP,40
+447,Kokoro,INFP,45
+448,"Shigeo ""Mob"" Kageyama",INFP,46
+449,Juvia Lockser,INFP,47
+450,Russia,INFP,48
