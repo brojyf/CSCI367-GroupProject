@@ -1,6 +1,6 @@
 AnimeID,AnimeName,Genre,Rating,Hulu,crunchyroll,Netflix,amazon prime
 0,Naruto Shippuden,0,8.7,https://www.hulu.com/series/c6321cb1-1879-4d7f-9e2f-8d7d4fc55544,https://www.crunchyroll.com/series/GYQ4MW246/naruto-shippuden,,
-1,My Hero Academia,0,8.2,https://www.hulu.com/series/b4859a95-39ba-4051-a550-256c42e70a1d,https://www.crunchyroll.com/series/G6NQ5DWZ6/my-hero-academia,,
+1,My Hero Academia,0,8.2,https://www.hulu.com/series/b4859a95-39ba-4051-a550-256c42e70a1d,https://www.crunchyroll.com/series/G6NQ5DWZ6/my-hero-academia,https://www.netflix.com/title/80135674,
 2,Attack on Titan,0,9.1,https://www.hulu.com/series/9c91ffa3-dc20-48bf-8bc5-692e37c76d88,https://www.crunchyroll.com/series/GR751KNZY/attack-on-titan,,
 3,Hunter X Hunter,0,9,https://www.hulu.com/series/4160deed-5e27-4f23-aa9a-a8e4f126e9cb,https://www.crunchyroll.com/series/GY3VKX1MR/hunter-x-hunter,,
 4,Death Note,1,8.9,https://www.hulu.com/series/9065c6f1-4d2d-4150-a1ef-58bced498809,NULL,,
@@ -47,5 +47,5 @@ AnimeID,AnimeName,Genre,Rating,Hulu,crunchyroll,Netflix,amazon prime
 45,Darling in the Franxx,5,7.3,NULL,https://www.crunchyroll.com/series/GY8VEQ95Y/darling-in-the-franxx,,
 46,Mob Psycho 100,3,8.5,https://www.hulu.com/series/mob-psycho-100-fc9b8130-e1e3-420b-b28d-a72f0b235069,https://www.crunchyroll.com/series/GY190DKQR/mob-psycho-100,,
 47,Fairy Tail,0,7.9,NULL,https://www.crunchyroll.com/series/G6DQDD3WR/fairy-tail,,
-48,Hetalia: Axis Powers,9,7.1,NULL,https://www.crunchyroll.com/series/GY5P0K48Y/hetalia,,
-49,Seraph of the End,0,7.4,NULL,NULL,NULL,NULL
+48,Hetalia: Axis Powers,9,7.1,NULL,https://www.crunchyroll.com/series/GY5P0K48Y/hetalia,,https://www.amazon.com/Hetalia/dp/B0CJF2XDW8/
+49,Seraph of the End,0,7.4,NULL,https://www.crunchyroll.com/series/G65P02ZQ6/seraph-of-the-end-vampire-reign,NULL,NULL
