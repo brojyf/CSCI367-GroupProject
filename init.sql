@@ -1,3 +1,4 @@
+-- Windows: \n --> \r\n
 -- Preparation
 DROP TABLE IF EXISTS `Characters`;
 DROP TABLE IF EXISTS Animes;
