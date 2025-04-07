@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label,
+input, 
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.loading{
+    font-weight: bold;
+    color: #f39c12
+}
+
+.result{
+    margin-top: 20px
+}
