@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:8
+    command: --local_infile=1 --secure-file-priv=''
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: CSCI367   
+      MYSQL_DATABASE: CSCI367MBTI  
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./Animes.csv:/docker-entrypoint-initdb.d/Animes.csv
+      - ./Characters.csv:/docker-entrypoint-initdb.d/Characters.csv
+      - ./Genres.csv:/docker-entrypoint-initdb.d/Genres.csv
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:
