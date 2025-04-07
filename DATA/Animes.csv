@@ -1,4 +1,4 @@
-AnimeID,AnimeName,Genre,Rating,Hulu,crunchyroll,Others
+AnimeID,AnimeName,GenreID,Rating,Hulu,Crunchyroll,Other
 0,Naruto Shippuden,0,8.7,https://www.hulu.com/series/c6321cb1-1879-4d7f-9e2f-8d7d4fc55544,https://www.crunchyroll.com/series/GYQ4MW246/naruto-shippuden,
 1,My Hero Academia,0,8.2,https://www.hulu.com/series/b4859a95-39ba-4051-a550-256c42e70a1d,https://www.crunchyroll.com/series/G6NQ5DWZ6/my-hero-academia,https://www.netflix.com/title/80135674
 2,Attack on Titan,0,9.1,https://www.hulu.com/series/9c91ffa3-dc20-48bf-8bc5-692e37c76d88,https://www.crunchyroll.com/series/GR751KNZY/attack-on-titan,
