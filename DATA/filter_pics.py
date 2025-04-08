@@ -111,15 +111,16 @@ if __name__ == '__main__':
     """
         Character Drop:
         
-        Mob Psycho 100/Shigeo "Mob" Kageyama.png
-        My Hero Academia/Toshinori Yagi "All Might".png
-        One Piece/Monkey D. Luffy.png
-        Pokémon/Charizard (Lizardon).png
-        The Promised Neverland/Isabella.png
-        The Promised Neverland/James Ratri.png
-        Toilet-bound Hanako-kun/Hanako.png
-        Tokyo Revengers/Ken "Draken" Ryuguji.png
+        | Psycho 100/Shigeo "Mob" Kageyama.png
+        | My Hero Academia/Toshinori Yagi "All Might".png
+        | One Piece/Monkey D. Luffy.png
+        | Pokémon/Charizard (Lizardon).png
+        | The Promised Neverland/Isabella.png
+        | The Promised Neverland/James Ratri.png
+        | Toilet-bound Hanako-kun/Hanako.png
+        | Tokyo Revengers/Ken "Draken" Ryuguji.png
         Tokyo Revengers/Manjirou "Mikey" Sano.png
+        
     """
     # block_list = ["Fullmetal Alchemist",
     #                   "Hetalia: Axis Powers",
