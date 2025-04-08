@@ -2,4 +2,7 @@
 .DS_Store
 
 # Cache file of idea
-/idea
+.idea
+
+# Raw Images
+DATA/raw_images/
