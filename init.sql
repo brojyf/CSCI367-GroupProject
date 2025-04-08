@@ -13,7 +13,7 @@ CREATE TABLE Genres(
 LOAD DATA INFILE '/docker-entrypoint-initdb.d/Genres.csv'
 INTO TABLE Genres
 FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
 -- Animes Table
@@ -31,7 +31,7 @@ CREATE TABLE Animes(
 LOAD DATA INFILE '/docker-entrypoint-initdb.d/Animes.csv'
 INTO TABLE Animes
 FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
 -- Characters Table
@@ -46,5 +46,5 @@ CREATE TABLE `Characters`(
 LOAD DATA INFILE '/docker-entrypoint-initdb.d/Characters.csv'
 INTO TABLE `Characters`
 FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;

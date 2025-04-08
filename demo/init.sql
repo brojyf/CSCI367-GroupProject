@@ -9,6 +9,6 @@ CREATE TABLE rose_shop (
 LOAD DATA INFILE '/docker-entrypoint-initdb.d/rose.csv'
 INTO TABLE rose_shop
 FIELDS TERMINATED BY ',' 
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (date, price);
