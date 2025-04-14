@@ -50,7 +50,7 @@ def merge_table():
 
     # Get anime dict
     anime_dict = {}
-    with open("Animes.csv", "r") as file:
+    with open("A.csv", "r") as file:
         _ = file.readline()
         for line in file:
             tokens = line.strip().split(',')
@@ -58,7 +58,7 @@ def merge_table():
     print(anime_dict)
 
     # Create temp file
-    with open("Characters.csv", "r") as file, open("TempCharacters.csv", "w") as out:
+    with open("C.csv", "r") as file, open("TempCharacters.csv", "w") as out:
         _ = file.readline()
         out.write('character_name,anime_name\n')
         for line in file:
