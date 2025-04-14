@@ -27,21 +27,20 @@ AnimeID,AnimeName,GenreID,Rating,Hulu,Crunchyroll,Other
 25,Chainsaw Man,0,8.3,https://www.hulu.com/series/chainsaw-man-7b71b5a4-560b-4d8b-98c4-c5dee6004c21,https://www.crunchyroll.com/series/GVDHX8QNW/chainsaw-man,
 26,Hyouka,1,7.7,NULLL,https://www.crunchyroll.com/series/G6P585256/hyouka,
 27,Bleach,0,8.2,https://www.hulu.com/series/bleach-0c265948-3450-40ad-89b4-883af457f36d,NULL,
-28,Pokémon,10,7.6,https://www.hulu.com/network/the-pokemon-company-b4ff08b9-1021-42fd-b94c-7d5e42923247,NULL,
+28,Pokémon,9,7.6,https://www.hulu.com/network/the-pokemon-company-b4ff08b9-1021-42fd-b94c-7d5e42923247,NULL,
 29,Monster,6,8.7,NULL,NULL,https://www.netflix.com/title/81409869/
-30,A Silent Voice,11,8.1,NULL,NULL,https://www3.stage.netflix.com/id-en/title/80223226
-31,Howl's Moving Castle,12,8.2,https://www.hulu.com/movie/howls-moving-castle-31377058-5566-4c85-9507-422afc1ba1f8,NULL,
-32,Komi Can't Communicate,13,7.7,NULL,NULL,https://www.netflix.com/title/81228573
-33,Future Diary,6,7.4,NULL,https://www.crunchyroll.com/series/GYGGXPQ2Y/the-future-diary,
-34,Dr. Stone,0,8.1,https://www.hulu.com/series/dr-stone-148925d5-ea60-4277-b0f6-7b2ded20b2d0,https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone,
-35,Sailor Moon,7,7.8,https://www.hulu.com/series/sailor-moon-4e1c9108-f973-48fb-8824-a69280ca0438,NULL,
-36,Beastars,11,7.7,NULL,NULL,https://www.netflix.com/title/81054847
-37,Classroom of the Elite,6,7.7,NULL,https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite,
-38,Wonder Egg Priority,6,7.3,NULL,https://www.crunchyroll.com/series/GXJHM372Z/wonder-egg-priority,
-39,Banana Fish,7,8.2,NULL,NULL,https://www.amazon.com/BANANA-FISH/dp/B07F8H7SHY
-40,Moriarty the Patriot,1,8,NULL,https://www.crunchyroll.com/series/GXJHM379D/moriarty-the-patriot,
-41,Ouran High School Host Club,7,8.1,https://www.hulu.com/series/ouran-high-school-host-club-4a92ac4e-cbe2-41f5-bfb8-eb11dc479bfd,https://www.crunchyroll.com/series/GRGGJWD2R/ouran-high-school-host-club,
-42,Darling in the Franxx,5,7.3,NULL,https://www.crunchyroll.com/series/GY8VEQ95Y/darling-in-the-franxx,
-43,Mob Psycho 100,3,8.5,https://www.hulu.com/series/mob-psycho-100-fc9b8130-e1e3-420b-b28d-a72f0b235069,https://www.crunchyroll.com/series/GY190DKQR/mob-psycho-100,
-44,Fairy Tail,0,7.9,NULL,https://www.crunchyroll.com/series/G6DQDD3WR/fairy-tail,
-45,Seraph of the End,0,7.4,NULL,https://www.crunchyroll.com/series/G65P02ZQ6/seraph-of-the-end-vampire-reign,NULL
+30,A Silent Voice,10,8.1,NULL,NULL,https://www3.stage.netflix.com/id-en/title/80223226
+31,Komi Can't Communicate,11,7.7,NULL,NULL,https://www.netflix.com/title/81228573
+32,Future Diary,6,7.4,NULL,https://www.crunchyroll.com/series/GYGGXPQ2Y/the-future-diary,
+33,Dr. Stone,0,8.1,https://www.hulu.com/series/dr-stone-148925d5-ea60-4277-b0f6-7b2ded20b2d0,https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone,
+34,Sailor Moon,7,7.8,https://www.hulu.com/series/sailor-moon-4e1c9108-f973-48fb-8824-a69280ca0438,NULL,
+35,Beastars,10,7.7,NULL,NULL,https://www.netflix.com/title/81054847
+36,Classroom of the Elite,6,7.7,NULL,https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite,
+37,Wonder Egg Priority,6,7.3,NULL,https://www.crunchyroll.com/series/GXJHM372Z/wonder-egg-priority,
+38,Banana Fish,7,8.2,NULL,NULL,https://www.amazon.com/BANANA-FISH/dp/B07F8H7SHY
+39,Moriarty the Patriot,1,8,NULL,https://www.crunchyroll.com/series/GXJHM379D/moriarty-the-patriot,
+40,Ouran High School Host Club,7,8.1,https://www.hulu.com/series/ouran-high-school-host-club-4a92ac4e-cbe2-41f5-bfb8-eb11dc479bfd,https://www.crunchyroll.com/series/GRGGJWD2R/ouran-high-school-host-club,
+41,Darling in the Franxx,5,7.3,NULL,https://www.crunchyroll.com/series/GY8VEQ95Y/darling-in-the-franxx,
+42,Mob Psycho 100,3,8.5,https://www.hulu.com/series/mob-psycho-100-fc9b8130-e1e3-420b-b28d-a72f0b235069,https://www.crunchyroll.com/series/GY190DKQR/mob-psycho-100,
+43,Fairy Tail,0,7.9,NULL,https://www.crunchyroll.com/series/G6DQDD3WR/fairy-tail,
+44,Seraph of the End,0,7.4,NULL,https://www.crunchyroll.com/series/G65P02ZQ6/seraph-of-the-end-vampire-reign,NULL
