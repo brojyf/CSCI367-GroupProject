@@ -19,9 +19,10 @@ services:
       - "3307:3306"
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-      - ./Animes.csv:/docker-entrypoint-initdb.d/Animes.csv
-      - ./Characters.csv:/docker-entrypoint-initdb.d/Characters.csv
-      - ./Genres.csv:/docker-entrypoint-initdb.d/Genres.csv
+      - ./DATA/Animes.csv:/docker-entrypoint-initdb.d/Animes.csv
+      - ./DATA/Characters.csv:/docker-entrypoint-initdb.d/Characters.csv
+      - ./DATA/Genres.csv:/docker-entrypoint-initdb.d/Genres.csv
+      - ./DATA/MBTI.csv:/docker-entrypoint-initdb.d/MBTI.csv
       - mysql-data:/var/lib/mysql
 
 volumes:
