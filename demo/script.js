@@ -1,30 +1,52 @@
-function getRosePrice(){
-    const date = document.getElementById('date').value;
-    const resultDiv = document.getElementById('result');
-    const loadingDiv = document.getElementById('loading');
+import React, { useState } from 'react';
 
-    if (!date){
-        alert("Select date");
-        return;
+function RosePriceFetcher() {
+  const [date, setDate] = useState('');
+  const [price, setPrice] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [errorMsg, setErrorMsg] = useState('');
+
+  const fetchPrice = () => {
+    if (!date) {
+      alert('Select a date');
+      return;
     }
+    setLoading(true);
+    setErrorMsg('');
+    setPrice(null);
 
-    loadingDiv.style.display = "block";
-    resultDiv.innerHTML = '';
-
-    // Request
     fetch(`/api/rose-price?date=${date}`)
-        .then(response => response.json())
-        .then(data => {
-            loadingDiv.style.display = "none";
-            if (data.success) {
-                resultDiv.innerHTML = `Price: ${data.price}`
-            } else {
-                resultDiv.innerHTML = "can't find"
-            }            
-        })
-        .catch(error => {
-            loadingDiv.style.display = "none";
-            console.error("Error: ", error)
-            alert("Failed, try later")
-        })
+      .then(res => res.json())
+      .then(data => {
+        setLoading(false);
+        if (data.success) {
+          setPrice(data.price);
+        } else {
+          setErrorMsg("Cannot find the price");
+        }
+      })
+      .catch(err => {
+        setLoading(false);
+        console.error(err);
+        setErrorMsg("Failed");
+      });
+  };
+
+  return (
+    <div>
+      <input
+        type="date"
+        value={date}
+        onChange={e => setDate(e.target.value)}
+      />
+      <button onClick={fetchPrice}>Search Rose Price</button>
+
+      {loading && <div>Loading…</div>}
+
+      {!loading && price !== null && <div>价格：{price}</div>}
+      {!loading && errorMsg && <div style={{ color: 'red' }}>{errorMsg}</div>}
+    </div>
+  );
 }
+
+export default RosePriceFetcher;
