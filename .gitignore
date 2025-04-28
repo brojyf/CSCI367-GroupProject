@@ -1,8 +1,0 @@
-# Apple file system
-.DS_Store
-
-# Cache file of idea
-.idea
-
-# Raw Images
-DATA/raw_images/

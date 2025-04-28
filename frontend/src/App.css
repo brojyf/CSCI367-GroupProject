@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+h1{
+  font-family: 'Comic Neue', cursive;       
+  font-size: 4.5rem;                       
+  line-height: 1.2;                      
+  
+  background: linear-gradient(135deg, #cb1f867c 0%, #3a86d7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;                       
+  
+  text-shadow:
+    2px 2px 0px rgba(27, 42, 53, 0.1),      
+    4px 4px 8px rgba(27, 42, 53, 0.15);   
+  
+  animation: float-fresh 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes float-fresh {
+  to { transform: translateY(-5%); }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+
+.search-bar {
+  margin-bottom: 30px;   
+}
+.results-table {
+  margin-top: 30px;    
+  margin-bottom: 80px;
+}
