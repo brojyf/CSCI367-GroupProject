@@ -53,7 +53,6 @@ func initDB() error {
 	return fmt.Errorf("cannot connect to db after multiple attempts: %v", err)
 }
 
-
 func getCharacters(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Content-Type", "application/json")
@@ -89,6 +88,7 @@ func getCharacters(w http.ResponseWriter, r *http.Request) {
 	// Log
 	log.Printf("Executing SQL: %s\nWith args: %v", baseSQL, args)
 
+	// Query
 	rows, err := db.Query(baseSQL, args...)
 	if err != nil {
 		log.Printf("Failed to search: %v", err)
@@ -98,6 +98,19 @@ func getCharacters(w http.ResponseWriter, r *http.Request) {
 	defer rows.Close()
 
 	// Iterate result
+	var result = iterateResults(rows)
+
+	// Return Json
+	resp := map[string]interface{}{
+		"success": true,
+		"data":    result,
+	}
+	if err := json.NewEncoder(w).Encode(resp); err != nil {
+		log.Printf("Failed to write to json: %v", err)
+	}
+}
+
+func iterateResults(rows *sql.Rows) []Character {
 	var result []Character
 	for rows.Next() {
 		var c Character
@@ -118,15 +131,7 @@ func getCharacters(w http.ResponseWriter, r *http.Request) {
 
 		result = append(result, c)
 	}
-
-	// Return Json
-	resp := map[string]interface{}{
-		"success": true,
-		"data":    result,
-	}
-	if err := json.NewEncoder(w).Encode(resp); err != nil {
-		log.Printf("Failed to write to json: %v", err)
-	}
+	return result
 }
 
 func main() {
