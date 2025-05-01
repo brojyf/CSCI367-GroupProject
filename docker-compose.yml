@@ -1,14 +1,21 @@
 services:
-  # Backend
+  # Backend 
   app:
     build: ./backend
     container_name: backend
     ports:
       - "8080:8080"
-    depends_on:
-      - mysql
+    depends_on:        
+      mysql:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
 
-  # mysql 
+  # MySQL 
   mysql:
     image: mysql:8
     command: --local_infile=1 --secure-file-priv=''
@@ -17,22 +24,33 @@ services:
       MYSQL_ROOT_PASSWORD: CSCI367   
       MYSQL_DATABASE: CSCI367MBTI 
     ports:
-      - "3307:3306" 
+      - "3307:3306"
     volumes:
       - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
       - ./mysql/Animes.csv:/docker-entrypoint-initdb.d/Animes.csv
       - ./mysql/Characters.csv:/docker-entrypoint-initdb.d/Characters.csv
       - ./mysql/Genres.csv:/docker-entrypoint-initdb.d/Genres.csv
       - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "--silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s  
 
   # Frontend
   frontend:
     build: ./frontend
     container_name: frontend
     ports:
-      - "3000:80"            
+      - "3000:80"
     depends_on:
       - app
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
 
 volumes:
   mysql-data:
