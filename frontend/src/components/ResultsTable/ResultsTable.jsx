@@ -13,7 +13,7 @@ export default function ResultsTable({ data }) {
           <th>Characters</th>
           <th>Anime</th>
           <th>Genre</th>
-          <th>Rating</th>
+          <th>Anime Rating</th>
           <th>Hulu</th>
           <th>Crunchyroll</th>
           <th>Others</th>
