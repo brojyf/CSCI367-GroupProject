@@ -130,7 +130,7 @@ export default function SearchBar({ mbti, genres, setMbti, setGenres, onSearch }
       </div>
       
       <button onClick={handleClearGenres}>Reset Genres</button>
-      <button onClick={handleSearchClick}>Search</button>
+      <button onClick={handleSearchClick}><b>Search</b></button>
     </div>
   );
 }
