@@ -36,6 +36,7 @@
             margin: 0;
             padding: 0;
             height: 100%;
+            padding-bottom: 50px;
         }
 
         body {
@@ -52,54 +53,109 @@
         }
 
         form#mbti-form {
-            background: rgba(255, 255, 255, 0.8);
-            padding: 20px 30px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            max-width: 360px;
-            width: 100%;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(8px);
+            padding: 32px 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            max-width: 400px;
+            width: 90%;
+            margin: 0 auto;
+            transform: translateY(0);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+        form#mbti-form:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
         }
 
         .question {
-            margin-bottom: 1.5em;
+            margin-bottom: 1.8rem;
         }
 
         .question p {
-            margin: 0 0 0.5em;
+            margin: 0 0 0.6rem;
+            font-size: 1.1rem;
             font-weight: 600;
+            color: #333;
         }
 
         .question label {
             display: block;
-            margin-bottom: 0.4em;
+            padding: 0.5rem 0.8rem;
+            margin-bottom: 0.4rem;
+            border-radius: 8px;
             cursor: pointer;
+            background: transparent;
+            transition: background 0.2s ease-in-out;
         }
 
-        .question input {
-            margin-right: 0.5em;
+        .question label:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .question label:hover {
+            background: rgba(0, 0, 0, 0.03);
+        }
+
+        .question input[type="radio"] {
+            margin-right: 0.75rem;
+            width: 1.1em;
+            height: 1.1em;
         }
 
         button {
+            margin-top: 1.2rem;
             display: block;
             width: 100%;
-            padding: 0.6em;
-            font-size: 1em;
+            padding: 0.7em;
+            font-size: 1.05rem;
+            font-weight: 600;
             border: none;
-            border-radius: 6px;
+            border-radius: 8px;
             cursor: pointer;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-            background-color: #4CAF50;
-            color: white;
+            color: #fff;
+
+            background: #ac6fc4;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
 
         button:hover {
-            background-color: #45A049;
+            background: #924fc1;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
         }
 
         .result {
-            margin-top: 1em;
-            font-size: 1.2em;
+            margin-top: 1.4rem;
+            text-align: center;
+            font-size: 1.2rem;
             font-weight: bold;
+            color: #2e2e2e;
+        }
+
+        .back-button {
+            margin: 0.5rem auto;
+            display: inline-block;
+            width: auto;
+            max-width: 200px;
+            padding: 0.5em 1em;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            color: #fff;
+            background: #ac6fc4;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            margin-top: 20px
+        }
+
+        .back-button:hover {
+            background: #924fc1;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
         }
     </style>
 </head>
@@ -109,25 +165,25 @@
     <form id="mbti-form">
         <div class="question">
             <p>1. At a party, you prefer to:</p>
-            <label><input type="radio" name="EI" value="E" required> Interact with many people</label><br>
+            <label><input type="radio" name="EI" value="E" required> Interact with many people</label>
             <label><input type="radio" name="EI" value="I"> Talk one-on-one with close friends</label>
         </div>
 
         <div class="question">
             <p>2. When gathering information, you focus on:</p>
-            <label><input type="radio" name="SN" value="S" required> Concrete facts and details</label><br>
+            <label><input type="radio" name="SN" value="S" required> Concrete facts and details</label>
             <label><input type="radio" name="SN" value="N"> Patterns and possibilities</label>
         </div>
 
         <div class="question">
             <p>3. When making decisions, you prioritize:</p>
-            <label><input type="radio" name="TF" value="T" required> Objective logic and consistency</label><br>
-            <label><input type="radio" name="TF" value="F"> Personal values and people’s feelings</label>
+            <label><input type="radio" name="TF" value="T" required> Objective logic and consistency</label>
+            <label><input type="radio" name="TF" value="F"> Personal values and people's feelings</label>
         </div>
 
         <div class="question">
             <p>4. Regarding tasks, you tend to:</p>
-            <label><input type="radio" name="JP" value="J" required> Plan ahead and follow schedules</label><br>
+            <label><input type="radio" name="JP" value="J" required> Plan ahead and follow schedules</label>
             <label><input type="radio" name="JP" value="P"> Stay flexible and adapt as you go</label>
         </div>
 
@@ -135,6 +191,7 @@
     </form>
 
     <div id="result" class="result"></div>
+    <button type="button" onclick="history.back()" class="back-button">Go Back</button>
 
     <script>
         document.getElementById('mbti-form').addEventListener('submit', function (e) {
