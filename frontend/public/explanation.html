@@ -1,11 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1-Minute MBTI Self Test</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+        h1 {
+            font-family: 'Comic Neue', cursive;
+            font-size: 4.5rem;
+            line-height: 1.2;
+
+            background: linear-gradient(135deg, #cb1f867c 0%, #3a86d7 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+
+            text-shadow:
+                2px 2px 0px rgba(27, 42, 53, 0.1),
+                4px 4px 8px rgba(27, 42, 53, 0.15);
+
+            animation: float-fresh 1.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes float-fresh {
+            to {
+                transform: translateY(-5%);
+            }
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('/bg.png');
+            background-repeat: repeat-y;
+            background-position: center center;
+            background-size: cover;
+            background-color: #fafafa;
+            font-family: Arial, sans-serif;
+        }
+
+        form#mbti-form {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            max-width: 360px;
+            width: 100%;
+        }
+
+        .question {
+            margin-bottom: 1.5em;
+        }
+
+        .question p {
+            margin: 0 0 0.5em;
+            font-weight: 600;
+        }
+
+        .question label {
+            display: block;
+            margin-bottom: 0.4em;
+            cursor: pointer;
+        }
+
+        .question input {
+            margin-right: 0.5em;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 0.6em;
+            font-size: 1em;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        button:hover {
+            background-color: #45A049;
+        }
+
+        .result {
+            margin-top: 1em;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h1>1-Minute MBTI Self Test</h1>
+    <form id="mbti-form">
+        <div class="question">
+            <p>1. At a party, you prefer to:</p>
+            <label><input type="radio" name="EI" value="E" required> Interact with many people</label><br>
+            <label><input type="radio" name="EI" value="I"> Talk one-on-one with close friends</label>
+        </div>
+
+        <div class="question">
+            <p>2. When gathering information, you focus on:</p>
+            <label><input type="radio" name="SN" value="S" required> Concrete facts and details</label><br>
+            <label><input type="radio" name="SN" value="N"> Patterns and possibilities</label>
+        </div>
+
+        <div class="question">
+            <p>3. When making decisions, you prioritize:</p>
+            <label><input type="radio" name="TF" value="T" required> Objective logic and consistency</label><br>
+            <label><input type="radio" name="TF" value="F"> Personal values and people’s feelings</label>
+        </div>
+
+        <div class="question">
+            <p>4. Regarding tasks, you tend to:</p>
+            <label><input type="radio" name="JP" value="J" required> Plan ahead and follow schedules</label><br>
+            <label><input type="radio" name="JP" value="P"> Stay flexible and adapt as you go</label>
+        </div>
+
+        <button type="submit">See My MBTI Type</button>
+    </form>
+
+    <div id="result" class="result"></div>
+
+    <script>
+        document.getElementById('mbti-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const EI = document.querySelector('input[name="EI"]:checked').value;
+            const SN = document.querySelector('input[name="SN"]:checked').value;
+            const TF = document.querySelector('input[name="TF"]:checked').value;
+            const JP = document.querySelector('input[name="JP"]:checked').value;
+            const mbti = EI + SN + TF + JP;
+            document.getElementById('result').textContent = 'Your MBTI type is: ' + mbti;
+        });
+    </script>
 </body>
+
 </html>

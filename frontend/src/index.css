@@ -7,8 +7,8 @@ html, body {
 body {
   background-image: url('/bg.png');
   background-repeat: repeat-y;
-  background-position: center center;
-  background-size: cover;
+  background-position: center top;
+  background-size: 100% auto;
   background-color: #fafafa;
 }
 
