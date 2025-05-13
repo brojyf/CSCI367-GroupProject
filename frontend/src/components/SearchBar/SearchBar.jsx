@@ -20,9 +20,11 @@ export default function SearchBar({ mbti, genres, setMbti, setGenres, onSearch }
   const genreRef = useRef(null);
 
   // Reset Genres
-  const handleClearGenres = () => {
+  const handleReset = () => {
+    setMbti('');
     setGenres([]);
-    setIsGenreOpen(false); 
+    setIsMbtiOpen(false);
+    setIsGenreOpen(false);
   };
 
   // Dropdown
@@ -73,7 +75,7 @@ export default function SearchBar({ mbti, genres, setMbti, setGenres, onSearch }
             e.stopPropagation();
             setIsMbtiOpen(o => !o);
             setIsGenreOpen(false);
-                   }}
+          }}
         >
           <span>{mbti || 'Choose your MBTI'}</span>
           <span className="arrow"></span>
@@ -128,8 +130,8 @@ export default function SearchBar({ mbti, genres, setMbti, setGenres, onSearch }
           </div>
         )}
       </div>
-      
-      <button onClick={handleClearGenres}>Reset Genres</button>
+
+      <button onClick={handleReset}>Reset</button>
       <button onClick={handleSearchClick}><b>Search</b></button>
     </div>
   );
